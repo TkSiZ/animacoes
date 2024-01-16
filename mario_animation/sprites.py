@@ -9,7 +9,7 @@ SCREEN_HEIGHT = 500
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption('Spritesheets')
 
-sprite_sheet_image = pygame.image.load('mario.png').convert_alpha()
+sprite_sheet_image = pygame.image.load('/mario.png').convert_alpha()
 sprite_sheet = spritesheet.SpriteSheet(sprite_sheet_image)
 
 BG = (50, 50, 50)
